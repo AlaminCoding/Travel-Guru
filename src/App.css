@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+.pt-200 {
+  padding-top: 200px;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.home-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i.ibb.co/DbcD9zC/Rectangle-1.png");
+  background-position: bottom;
+  background-size: cover;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.place-name {
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 80px;
+  color: #ffffff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.place-des {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }

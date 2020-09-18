@@ -1,0 +1,23 @@
+.place-box {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.place-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  transition: 0.5s;
+}
+.place-box img:hover {
+  border: 5px solid #f9a51a;
+}
+.place-box h2 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 24px;
+  left: 32px;
+  color: white;
+}

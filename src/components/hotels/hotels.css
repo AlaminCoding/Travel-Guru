@@ -1,0 +1,42 @@
+.hotel-box {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.hotel-des {
+  padding-left: 40px;
+}
+.hotel-box img {
+  width: 270px;
+  height: auto;
+}
+
+.hotel-box h2 {
+  font-size: 18px;
+}
+.hotel-box small {
+  color: #6a6a6a;
+  font-size: 16px;
+}
+.hotel-box p {
+  color: #6a6a6a;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p.rating {
+  color: black;
+  font-weight: bold;
+}
+p.price {
+  color: black;
+  font-weight: bold;
+}
+.location-map {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 90vh;
+  width: 100%;
+}
+.location-map iframe {
+  border-radius: 20px;
+}

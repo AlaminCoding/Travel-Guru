@@ -1,0 +1,59 @@
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.logo {
+  height: 70px;
+  width: auto;
+}
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
+@media screen and (max-width: 765px) {
+  .navbar-expand-lg .navbar-nav {
+    align-items: flex-start;
+  }
+}
+.search-input {
+  width: 370px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+}
+.search-input:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.search-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white;
+}
+.search-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+.search-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white;
+}
+.search-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: cyan;
+  margin-left: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 0px;
+  }
+}
+.login-btn {
+  background-color: #f9a51a;
+  color: black;
+}

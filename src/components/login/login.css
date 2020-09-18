@@ -1,0 +1,32 @@
+.login-form {
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+.login-form .form-control {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  border-radius: 0px;
+}
+.login-form button {
+  background-color: #f9a51a;
+  width: 100%;
+  color: black;
+  outline: 0px;
+  border: 0px;
+  padding: 10px 0px;
+}
+.login-form span {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.auth-box button {
+  background-color: white;
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: black;
+  margin-top: 10px;
+}
